@@ -1,0 +1,19 @@
+{
+    "name": "Devis Automation",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "https://*/*",
+        "http://*/*"
+      ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action" : {
+        "default_icon" : "non-activ-icon-enterprise.png"
+    },
+    "description": "une extension chrome pour générer nos devis à partir de nos pages de contacts entreprises",
+    "manifest_version": 2
+}
